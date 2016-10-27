@@ -55,7 +55,7 @@
      <h2>Already Bought:</h2>
      <ul>
        <li ng-repeat="item in aBoughtList.items">
-        Bought {{ item.itemQuantity }}  gaga {{ item.itemName }}
+        Bought {{ item.itemQuantity }} {{ item.itemName }}
           <button type="button" name="button"
              ng-click="aBoughtList.returnItem($index)"
           >Remove</button>
