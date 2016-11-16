@@ -1,0 +1,17 @@
+
+<table id="searchTextResults" ng-show="list.foundItems.length">
+  <tr><th>No.</th><th>Name</th>
+    <th>Short Name</th><th>Description</th>
+  </tr>
+  <a href="#">
+  </a>
+  <tr ng-repeat="name in list.foundItems">
+    <td>{{$index+1}}</td>
+    <td>{{name.name}}</td>
+    <td>{{name.short_name}}</td>
+    <td>{{name.description}}</td>
+    <td>
+      <button ng-click="list.onRemove({index: $index})">Don't want this one!</button>
+    </td>
+  </tr>
+</table>
