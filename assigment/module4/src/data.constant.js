@@ -2,6 +2,6 @@
   'use strict';
 
   angular.module('data')
-  .constant('MenuPath', "http://davids-restaurant.herokuapp.com");
+  .constant('MenuPath', "https://davids-restaurant.herokuapp.com");
 
 })();
